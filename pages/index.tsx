@@ -3,6 +3,7 @@ import { Link, button as buttonStyles } from "@nextui-org/react";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
+import TripDetailCard from "./trips/TripDetailCard";
 
 export default function IndexPage() {
   return (
@@ -33,6 +34,7 @@ export default function IndexPage() {
            Contact Us
           </Link>    
         </div>
+        <TripDetailCard/>
       </section>
     </DefaultLayout>
   );
